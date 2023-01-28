@@ -10,4 +10,9 @@ public class AccountNotFoundException extends RuntimeException{
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String toString() {
+		return "AccountNotFoundException ["+getMessage()+"]";
+	}
+
 }
